@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media-query.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="my-nav">
+            <nav>
+                <ul class="nav-ul">
+                    <li class="nav-li active">
+                        <i class="fa fa-home fa-fw"></i>
+                        <a href="#home" class="link" data-filter="content-home">Home</a>
+                    </li>
+                    <li class="nav-li active">
+                        <i class="fas fa-user"></i>
+                        <a href="#about" class="link" data-filter="content-about">About</a>
+                    </li>
+                    <li class="nav-li">
+                        <i class="fas fa-poll-h"></i>
+                        <a href="#resume" class="link" data-filter="content-resume">Resume</a>
+                    </li>
+                    <li class="nav-li">
+                        <i class="fas fa-pencil-alt"></i>
+                        <a href="#porfolio" class="link" data-filter="content-portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-li">
+                        <i class="fab fa-stack-exchange"></i>
+                        <a href="#blog" class="link" data-filter="content-blog">Blog</a>
+                    </li>
+                    <li class="nav-li">
+                        <i class="fas fa-envelope"></i>
+                        <a href="#contact" class="link" data-filter="content-contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+
+
+
+        <!--Profile Section-->
+        <div class="my-profile">
+            <div class="profile-image">
+                <img src="IMG_20191017_072020_4.jpg" alt="Lady">
+            </div> 
+        </div>
+
+
+
+
+        <!-- Content Section-->
+        <!-- <div class="content"> -->
+            <div class="content-all">
+                <!-- Home section -->
+                <div class="content content-home" id="home">
+                    <!-- <div class="content-header">
+                        <h2><span>Home</span> Me</h2>
+                    </div> -->
+                    <div class="profile-text">
+                        <h2>Dorcas Bamisile</h2>
+                        <p class="text">Frontend Developer</p>
+                    </div>
+                    <div class="profile-icons">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-stack-overflow"></i>
+                        </a>
+                        
+                    </div>
+                    <div class="profile-cta my-border">
+                        <div><a href="#">GitHub </a></div>
+                        <div><a href="#"> Contact Me</a></div>
+                    </div>
+                </div>
+
+                <!-- Content About-->
+                <div class="content content-about" id="about">
+                    <div class="content-header">
+                        <h2><span>About</span> Me</h2>
+                    </div>
+                    <div class="content-details about">
+                        <img src="IMG_20200913_103740_9.jpg" alt="Profile">
+                        <p><span class="text">Hello! I'm</span><span class="name"> Dorcas Bamisile</span></p>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam totam unde enim animi obcaecati hic sed asperiores, iure repudiandae laudantium quis labore nam eius autem recusandae debitis illum eos suscipit.</p>
+
+                    </div>
+                </div>
+
+                <!--Content Resume-->
+                <div class="content content-resume" id="resume">
+                    <div class="content-header">
+                        <h2><span>My</span> Resume</h2>
+                    </div>
+                    <div class="content-details">
+                        <div class="resume">
+                            <div class="my-resume education">
+                                <div class="title">
+                                    <h3>Education</h3>
+                                </div>
+                                <div class="details">
+                                    <div class="specific-details">
+                                        <p class="year">2016-2022</p>
+                                        <div class="year-details">
+                                            <p class="year-title">Obafemi Awolowo University</p>
+                                            <p class="year-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequatur temporibus ipsum cupiditate excepturi odio ab error, laboriosam ducimus ut quos consequuntur, dolores possimus deserunt eum quas unde vel omnis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="my-resume experience">
+                                <div class="title">
+                                    <h3>Experience</h3>
+                                </div>
+                                <div class="details">
+                                    <div class="specific-details">
+                                        <p class="year">2018-2019</p>
+                                        <div class="year-details">
+                                            <p class="year-title">Frontend Developer</p>
+                                            <p class="year-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequatur temporibus ipsum cupiditate excepturi odio ab error, laboriosam ducimus ut quos consequuntur, dolores possimus deserunt eum quas unde vel omnis.</p>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div> 
+                        </div>
+
+                            <!--Content Portfolio-->
+                            <div class="content-line"></div>
+                            <!--My Skills-->
+                            <div class="my-skills">
+                            <div class="title">
+                                <h3>My Skills</h3>
+                            </div>
+                            <div class="skills">
+                                <div class="skill"><img src="Gmail.png" alt="">
+                                    <p>HTML</p>
+                                </div>
+                                <div class="skill"><img src="Gmail.png" alt="">
+                                    <p>CSS</p>
+                                </div>
+                                <div class="skill"><img src="Gmail.png" alt="">
+                                    <p>JavaScript</p>
+                                </div>
+                                <div class="skill"><img src="Gmail.png" alt="">
+                                    <p>React</p>
+                                </div>
+                                <div class="skill"><img src="Gmail.png" alt="">
+                                    <p>NodeJS</p>
+                                </div>
+                                <div class="skill"><img src="Gmail.png" alt="">
+                                    <p>GitHub</p>
+                                </div>
+                                <div class="skill"><img src="Gmail.png" alt="">
+                                    <p>Vue</p>
+                                </div>
+                                <div class="skill"><img src="Gmail.png" alt="">
+                                    <p>Angular</p>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+
+
+
+                <!--Content Portfolio-->
+                <div class="content content-portfolio" id="portfolio">
+                    <div class="content-header">
+                        <h2><span>My</span> Portfolio</h2>
+                    </div>
+                    <div class="content-details">
+                        <div class="portfolio">
+                            <div class="portfolio-item">
+                                <img src="TWITTER.png" alt="">
+                                <p class="portfolio-title">
+                                    GeoSearch
+                                </p>
+                                <p class="portfolio-desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus praesentium enim mollitia tenetur. Exercitationem, nulla. Vero ipsum nesciunt alias inventore explicabo praesentium maiores placeat iusto ducimus, excepturi, doloribus vitae maxime.
+                                </p>
+                                <a href="#">&rarr; View Project</a>
+                            </div>
+                            <div class="portfolio-item">
+                                <img src="TWITTER.png" alt="">
+                                <p class="portfolio-title">
+                                    Calculator
+                                </p>
+                                <p class="portfolio-desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus praesentium enim mollitia tenetur. Exercitationem, nulla. Vero ipsum nesciunt alias inventore explicabo praesentium maiores placeat iusto ducimus, excepturi, doloribus vitae maxime.
+                                </p>
+                                <a href="#">&rarr; View Project</a>
+                            </div>
+                            <div class="portfolio-item">
+                                <img src="TWITTER.png" alt="">
+                                <p class="portfolio-title">
+                                    Keyboard
+                                </p>
+                                <p class="portfolio-desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus praesentium enim mollitia tenetur. Exercitationem, nulla. Vero ipsum nesciunt alias inventore explicabo praesentium maiores placeat iusto ducimus, excepturi, doloribus vitae maxime.
+                                </p>
+                                <a href="#">&rarr; View Project</a>
+                            </div>
+                            <div class="portfolio-item">
+                                <img src="TWITTER.png" alt="">
+                                <p class="portfolio-title">
+                                    ArmStrong
+                                </p>
+                                <p class="portfolio-desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus praesentium enim mollitia tenetur. Exercitationem, nulla. Vero ipsum nesciunt alias inventore explicabo praesentium maiores placeat iusto ducimus, excepturi, doloribus vitae maxime.
+                                </p>
+                                <a href="#">&rarr; View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Content Blog-->
+                <div class="content content-blog" id="blog">
+                    <div class="content-header">
+                        <h2><span>My</span> Blog</h2>
+                    </div>
+                    <div class="content-details">
+                        <div class="blog">
+                            <div class="blog-post">
+                                <img src="IMG_20200216_091755_6.jpg" alt="">
+                                <p class="blog-title">
+                                    JavaScript Constructor
+                                </p>
+                                <p class="blog-desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                                </p>
+                                <a href="#">&rarr; Read Post</a>
+                            </div>
+                            <div class="blog-post">
+                                <img src="IMG_20200216_091755_6.jpg" alt="">
+                                <p class="blog-title">
+                                    Learn HTML and CSS
+                                </p>
+                                <p class="blog-desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                                </p>
+                                <a href="#">&rarr; Read Post</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Content Contact-->
+                <div class="content content-contact" id="contact">
+                    <div class="content-header">
+                        <h2><span>Contact</span> Me</h2>
+                    </div>
+                    <div class="content-details">
+                        <div class="contact">
+                            <div class="contact-details">
+                                <p class="title">Address</p>
+                                <p>Ile-Ife, Nigeria. </p>
+                                <!-- <img src="" alt="">  this img is for the flex to look nicely -->
+                            </div> -->
+                            <div class="contact-details">
+                                <p class="title">Email</p>
+                                <p>droluwadamilola1@gmail.com</p>
+                            </div>
+                            <div class="contact-details">
+                                <p class="title">Phone</p>
+                                <p>+2347057258425 </p>
+                            </div>
+                            <div class="contact-details">
+                                <p class="title">Freelance</p>
+                                <p> Available</p>
+                            </div>
+                            <div class="content-line"></div>
+
+                            <!-- Contact Form -->
+                            <div class="contact-form">
+                                <div class="title">
+                                    <h3>Contact Form</h3>
+                                </div>
+                                <form action="">
+                                    <div class="form-input">
+                                        <input type="text" placeholder="Name">
+                                        <input type="email" placeholder="Email">
+                                    </div>
+                                    <textarea cols="30" rows="10"></textarea>
+                                    <input type="submit" value="Send Message">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
